@@ -78,7 +78,7 @@ st.markdown(
     """
     <hr style="margin-top: 50px;">
     <div style='text-align: center; color: grey; font-size: 0.85em;'>
-        Fatto da <strong>ora_dodici</strong>
+        Fatto da <strong>Costa Bruno e ora_dodici</strong>
     </div>
     """,
     unsafe_allow_html=True
