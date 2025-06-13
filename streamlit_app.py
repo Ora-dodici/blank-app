@@ -2,8 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Chiave API per OpenAI (ricordati di proteggerla bene!)
-OPENAI_API_KEY = "metti la tua"
-# Inizializzazione client OpenAI
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Prompt per ogni mago
