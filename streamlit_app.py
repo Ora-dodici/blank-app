@@ -80,7 +80,7 @@ st.set_page_config(page_title="I Magi", layout="wide")
     #nigger
 
 # Titolo della pagina
-st.title("🔮 I Tre Magi: Consulta i Saggi")
+st.title("🔮 I Magi: Consulta i Super computer")
 
 # Messaggio informativo sulla privacy
 st.info("⚠️ Le domande NON vengono salvate.")
