@@ -79,7 +79,7 @@ col1, col2 = st.columns([6, 1])
 with col1:
     st.title("🔮 I Tre Magi: Consulta i Saggi")
 with col2:
-    st.image("nerv_logo.png", use_column_width=True)
+   st.image("immagine.png", use_container_width=True)
 
 
 # Titolo della pagina
