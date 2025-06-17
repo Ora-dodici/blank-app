@@ -79,9 +79,8 @@ col1, col2 = st.columns([6, 1])
 with col1:
     st.title("🔮 I Tre Magi: Consulta i Saggi")
 with col2:
-    st.image("nerv_logo.png", use_column_width=True)Add commentMore actions 
-    Add comment
-
+    st.image("nerv_logo.png", use_column_width=True)
+    #nigger
 
 # Titolo della pagina
 st.title("🔮 I Tre Magi: Consulta i Saggi")
