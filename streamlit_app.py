@@ -73,13 +73,10 @@ def decision_logic(question, answers):
 # --- Interfaccia Streamlit ---
 
 # Configura la pagina Streamlit con titolo e layout largo
-st.set_page_config(page_title="I Tre Magi", layout="wide")
-# Layout iniziale con logo a destra
-col1, col2 = st.columns([6, 1])
-with col1:
-    st.title("🔮 I Tre Magi: Consulta i Saggi")
-with col2:
-    st.image("nerv_logo.png", use_column_width=True)
+st.set_page_config(page_title="I Magi", layout="wide")
+# i love the nigger
+
+
     #nigger
 
 # Titolo della pagina
