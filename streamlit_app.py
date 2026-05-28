@@ -269,6 +269,6 @@ with tab5:
 st.markdown("""
     <div style="text-align: center; margin-top: 40px; padding: 20px; color: rgba(255,255,255,0.5); font-size: 12px;">
         © 2026 Liceo Scientifico Statale "G. Berto" - Progetto Erasmus+ Portogallo. Tutti i diritti riservati.<br>
-        Sito sviluppato con framework Streamlit & Custom Glassmorphism Engine.
+        Sito sviluppato da Antonio Mazza.
     </div>
 """, unsafe_allow_html=True)
