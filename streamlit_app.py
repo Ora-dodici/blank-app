@@ -90,14 +90,21 @@ st.markdown("""
 
 # --- HEADER ISTITUZIONALE ---
 st.markdown("""
-    <div class="glass-card" style="text-align: center; padding: 20px; margin-bottom: 30px;">
-        <p style="letter-spacing: 2px; font-size: 14px; color: #ffd700; margin-bottom: 5px; font-weight: 600;">
+    <div class="glass-card" style="text-align: center; padding: 25px; margin-bottom: 30px;">
+        <p style="letter-spacing: 2px; font-size: 13px; color: #ffd700; margin-bottom: 5px; font-weight: 600;">
             MINISTERO DELL'ISTRUZIONE E DEL MERITO
         </p>
         <h2 style="margin: 0; color: #ffffff; font-size: 26px; font-weight: 700;">
             LICEO SCIENTIFICO STATALE "G. BERTO"
         </h2>
-        <p style="font-size: 14px; color: #e9ecef; margin-top: 2px;">Vibo Valentia (VV)</p>
+        <p style="font-size: 14px; color: #e9ecef; margin-top: 2px; margin-bottom: 12px;">Vibo Valentia (VV)</p>
+        
+        <div style="display: inline-block; background: rgba(0, 0, 0, 0.25); padding: 8px 20px; border-radius: 30px; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 5px;">
+            <p style="margin: 0; font-size: 14px; color: #ffffff;">
+                🏫 In collaborazione con: <span style="color: #ffd700; font-weight: 600;">Escola Secundária de Avelar Brotero</span> (Coimbra)
+            </p>
+        </div>
+        
         <h1 style="font-size: 36px; margin-top: 15px; color: #ffffff; border-bottom: none; padding-bottom: 0;">
             Programma Erasmus+ • Mobilità Portogallo
         </h1>
@@ -121,7 +128,7 @@ with tab1:
             <p style="font-size: 18px; line-height: 1.6;">
                 Questo spazio istituzionale è dedicato alla documentazione e alla valorizzazione dell'esperienza 
                 di mobilità internazionale promossa dal programma <b>Erasmus+</b>, che ha visto la partecipazione 
-                degli studenti del Liceo Scientifico "G. Berto" presso la suggestiva cornice di <b>Coimbra, Portogallo</b>, 
+                degli studenti del Liceo Scientifico "G. Berto" presso la prestigiosa città di <b>Coimbra, Portogallo</b>, 
                 nel mese di <b>Marzo 2026</b>.
             </p>
             <p style="font-size: 18px; line-height: 1.6;">
@@ -152,7 +159,7 @@ with tab2:
             <h1>Quadro Progettuale ed Obiettivi</h1>
             <h2>L'Iniziativa Europea</h2>
             <p style="font-size: 16px; line-height: 1.6;">
-                Il progetto si colloca all'interno delle azioni chiave del programma Erasmus+, volte a favorire 
+                Il progetto si classifica all'interno delle azioni chiave del programma Erasmus+, volte a favorire 
                 la mobilità transnazionale degli studenti della scuola secondaria superiore. L'obiettivo principale 
                 è lo sviluppo di competenze chiave europee, l'inclusione sociale, la sostenibilità e la comprensione 
                 delle dinamiche interculturali.
@@ -269,6 +276,6 @@ with tab5:
 st.markdown("""
     <div style="text-align: center; margin-top: 40px; padding: 20px; color: rgba(255,255,255,0.5); font-size: 12px;">
         © 2026 Liceo Scientifico Statale "G. Berto" - Progetto Erasmus+ Portogallo. Tutti i diritti riservati.<br>
-        Sito sviluppato da Antonio Mazza.
+        Sito sviluppato con framework Streamlit & Custom Glassmorphism Engine.
     </div>
 """, unsafe_allow_html=True)
