@@ -169,29 +169,67 @@ cosa significa davvero sentirsi cittadini europei attivi.
 </div>
     """, unsafe_allow_html=True)
 
-# --- TAB 3: DIARIO DI BORDO ---
+# --- TAB 3: DIARIO DI BORDO (CRONOLOGICO AGGIORNATO) ---
 with tab3:
     st.markdown("""
 <div class="glass-card">
-<h1>Le mie giornate in Portogallo</h1>
-<p style="font-size: 16px; line-height: 1.6;">
-Il mio viaggio è stato un mix perfetto tra momenti di lavoro, laboratori scolastici e la scoperta di posti meravigliosi. 
-Insieme ai compagni d'avventura (un saluto speciale a Nicole e Alessia che hanno condiviso con me questa esperienza!), abbiamo vissuto giornate intense e indimenticabili.
+<h1>Il Diario di Bordo dell'Avventura</h1>
+<p style="font-size: 16px; line-height: 1.6; margin-bottom: 25px;">
+Ecco la cronologia dettagliata della mia mobilità in Portogallo. Ogni giorno è stato associato a una speciale tematica ("Spice") che ha guidato le nostre attività didattiche e di crescita. Un saluto speciale a Nicole e Alessia che hanno condiviso con me ogni singolo momento di questo cammino!
 </p>
 
-<h2>🏛️ I posti che ho visitato</h2>
-<p style="font-size: 16px; line-height: 1.6;">
-Camminare per i centri storici e ammirare il patrimonio locale è stato affascinante. Ogni visita non era solo 
-una passeggiata turistica, ma un modo per comprendere le radici culturali che ci legano al resto del continente. 
-Ho scattato decine di foto per ricordarmi ogni dettaglio!
-</p>
+<div style="border-left: 3px solid #ffd700; padding-left: 20px; margin-left: 10px;">
 
-<h2>👥 Il lavoro di squadra e i Workshop</h2>
-<p style="font-size: 16px; line-height: 1.6;">
-La parte più stimolante? Lavorare con i ragazzi portoghesi e degli altri paesi. Divisi in team, abbiamo affrontato 
-compiti di realtà e project work. Non è stato sempre facile capirsi subito, ma collaborare per trovare idee innovative 
-sulla sostenibilità e scambiarci opinioni sul nostro modo di vivere la scuola è stato illuminante.
-</p>
+    <div style="margin-bottom: 25px;">
+        <h3 style="color: #ffd700; margin-bottom: 5px;">🛬 Giorno 1: Domenica 22 Marzo - L'Arrivo</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        La nostra avventura è iniziata la mattina presto all'Aeroporto di Oporto, dove siamo atterrati intorno alle 10:00. Un pullman messo a disposizione dal Comune ci ha portati direttamente a <b>Santa Comba Dão</b>. L'emozione più grande della giornata è stata senza dubbio l'incontro con le famiglie ospitanti, che ci hanno accolto a braccia aperte nelle loro case.
+        </p>
+    </div>
+
+    <div style="margin-bottom: 25px;">
+        <h3 style="color: #ffd700; margin-bottom: 5px;">🤝 Giorno 2: Lunedì 23 Marzo - Connection Spice</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        La parola chiave della giornata è stata <b>Relazioni e Inclusione</b>. Siamo stati accolti a scuola dalla Dirigente Scolastica, la professoressa Madalena Dinis. Dopo aver visitato l'istituto, ci siamo divisi per partecipare a lezioni di educazione fisica e ad attività nel laboratorio multimediale, affrontando temi cruciali come la cittadinanza europea, l'identità e la sostenibilità climatica. Nel pomeriggio abbiamo esplorato lo splendido centro storico di Santa Comba Dão e siamo stati ricevuti ufficialmente al Municipio.
+        </p>
+    </div>
+
+    <div style="margin-bottom: 25px;">
+        <h3 style="color: #ffd700; margin-bottom: 5px;">🗺️ Giorno 3: Martedì 24 Marzo - Travel Spice</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        Il martedì è stato dedicato all'<b>Esplorazione</b>. Siamo partiti per una fantastica escursione a <b>Coimbra</b>! La mattina abbiamo visitato la sua famosissima e antica Università, respirando la storia e la cultura che avvolgono questa città. Dopo il pranzo insieme, abbiamo passato il pomeriggio a scoprire gli scorci e le bellezze del centro storico, prima di rientrare in serata a Santa Comba Dão dalle nostre famiglie.
+        </p>
+    </div>
+
+    <div style="margin-bottom: 25px;">
+        <h3 style="color: #ffd700; margin-bottom: 5px;">🌿 Giorno 4: Mercoledì 25 Marzo - Nature Spice</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        Una giornata focalizzata sulla <b>Salute Fisica ed Emozionale</b>. La mattina ci siamo immersi nella natura visitando i bellissimi dintorni della regione, tra cui le località di Sra da Ribeira, Vimieiro e la suggestiva pista ciclabile naturalistica (Ecopista). Nel pomeriggio, la nostra sensibilità culturale si è spostata verso l'arte: abbiamo visitato il Conservatorio di Musica locale, dove abbiamo assistito alle lezioni e alle prove d'insieme dei musicisti.
+        </p>
+    </div>
+
+    <div style="margin-bottom: 25px;">
+        <h3 style="color: #ffd700; margin-bottom: 5px;">🎨 Giorno 5: Giovedì 26 Marzo - Creative Spice</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        Spazio all'<b>Originalità ed Espressione Personale</b>! Durante la mattinata abbiamo partecipato a un fantastico laboratorio d'arte ("Art & Design Exchange") realizzando tutti insieme un murales collaborativo a scuola, seguito da un divertente quiz a squadre. Nel pomeriggio ci siamo scatenati con la musica e i giochi: durante la "Music Jam", ogni gruppo ha insegnato una canzone o un ballo tradizionale della propria terra d'origine. La sera si è tenuta la bellissima cena ufficiale a scuola con professori, personale e famiglie ospitanti.
+        </p>
+    </div>
+
+    <div style="margin-bottom: 25px;">
+        <h3 style="color: #ffd700; margin-bottom: 5px;">📸 Giorno 6: Venerdì 27 Marzo - I Saluti</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        L'ultimo giorno di attività si è aperto con la mostra fotografica "Bridges Across Europe" e con alcuni momenti dedicati alla lettura. Successivamente si è tenuta la toccante cerimonia di consegna dei certificati di partecipazione con i saluti finali. Abbiamo passato l'ultimo pomeriggio di libertà insieme ai nostri partner portoghesi, prima di goderci l'ultima cena speciale in famiglia.
+        </p>
+    </div>
+
+    <div style="margin-bottom: 10px;">
+        <h3 style="color: #ffd700; margin-bottom: 5px;">🛫 Giorno 7: Sabato 28 Marzo - Il Ritorno</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        La sveglia è suonata prestissimo: alle 2:00 di notte abbiamo salutato Santa Comba Dão e siamo partiti in pullman verso l'Aeroporto di Oporto. Alle 6:10 il nostro volo è decollato, riportandoci in Italia stanchi ma carichi di ricordi indimenticabili.
+        </p>
+    </div>
+
+</div>
 </div>
     """, unsafe_allow_html=True)
 
@@ -212,7 +250,7 @@ e le persone fantastiche che ho incontrato.
     with col1:
         st.markdown('<div class="glass-card" style="padding: 15px; text-align: center;"><h3>I luoghi che ho amato</h3>', unsafe_allow_html=True)
         if os.path.exists("foto_citta.jpg"):
-            st.image("foto_citta.jpg", caption="Scorci indimenticabili del Portogallo", use_container_width=True)
+            st.image("foto_citta.jpg", caption="Scorci indimenticabili di Coimbra e dintorni", use_container_width=True)
         else:
             st.warning("Carica un'immagine nominata 'foto_citta.jpg' per vederla qui.")
         st.markdown('</div>', unsafe_allow_html=True)
@@ -228,7 +266,7 @@ e le persone fantastiche che ho incontrato.
     with col3:
         st.markdown('<div class="glass-card" style="padding: 15px; text-align: center;"><h3>Al lavoro!</h3>', unsafe_allow_html=True)
         if os.path.exists("foto_attivita.jpg"):
-            st.image("foto_attivita.jpg", caption="Momenti durante i workshop", use_container_width=True)
+            st.image("foto_attivita.jpg", caption="Momenti tra workshop e la creazione del murales", use_container_width=True)
         else:
             st.warning("Carica un'immagine nominata 'foto_attivita.jpg' per vederla qui.")
         st.markdown('</div>', unsafe_allow_html=True)
@@ -251,15 +289,15 @@ Questa esperienza mi ha permesso di sviluppare abilità che nessun libro di test
     </tr>
     <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
         <td style="padding: 12px; font-weight: bold;">Comunicare in lingua straniera</td>
-        <td style="padding: 12px;">Ho superato la timidezza di parlare in inglese, riuscendo a esprimere le mie idee e a scherzare con ragazzi di altre nazionalità.</td>
+        <td style="padding: 12px;">Ho superato la timidezza di parlare in inglese, riuscendo a esprimere le mie idee nei dibattiti sulla sostenibilità e a fare amicizia.</td>
     </tr>
     <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
         <td style="padding: 12px; font-weight: bold;">Spirito di Adattamento</td>
-        <td style="padding: 12px;">Ho imparato a gestire i miei tempi, gli spostamenti e le routine quotidiane in un paese che non conoscevo, diventando molto più indipendente.</td>
+        <td style="padding: 12px;">Ho imparato a integrarmi nelle abitudini di una famiglia ospitante portoghese, gestendo i miei tempi e la mia autonomia lontano da casa.</td>
     </tr>
     <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
-        <td style="padding: 12px; font-weight: bold;">Lavoro di Squadra</td>
-        <td style="padding: 12px;">Ho capito come collaborare in un gruppo eterogeneo, ascoltando le idee degli altri e trovando compromessi per portare a termine i progetti.</td>
+        <td style="padding: 12px; font-weight: bold;">Lavoro di Squadra Transnazionale</td>
+        <td style="padding: 12px;">Ho collaborato con ragazzi di culture diverse per realizzare il murales comune, scambiare balli regionali e risolvere compiti complessi.</td>
     </tr>
 </table>
 </div>
