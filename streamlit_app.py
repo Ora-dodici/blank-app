@@ -91,8 +91,8 @@ st.markdown("""
 # --- HEADER ISTITUZIONALE ---
 st.markdown("""
 <div class="glass-card" style="text-align: center; padding: 25px; margin-bottom: 30px;">
-    <p style="letter-spacing: 2px; font-size: 13px; color: #ffd700; margin-bottom: 5px; font-weight: 600;">
-        MINISTERO DELL'ISTRUZIONE E DEL MERITO
+    <p style="letter-spacing: 2px; font-size: 20px; color: #ffd700; margin-bottom: 5px; font-weight: 600;">
+        Erasmus +
     </p>
     <h2 style="margin: 0; color: #ffffff; font-size: 26px; font-weight: 700;">
         LICEO SCIENTIFICO STATALE "G. BERTO"
@@ -101,8 +101,7 @@ st.markdown("""
     
     <div style="display: inline-block; background: rgba(0, 0, 0, 0.25); padding: 8px 20px; border-radius: 30px; border: 1px solid rgba(255,255,255,0.1); margin-bottom: 5px;">
         <p style="margin: 0; font-size: 14px; color: #ffffff;">
-            🏫 In collaborazione con: <span style="color: #ffd700; font-weight: 600;">Escola Secundária de Avelar Brotero</span> (Coimbra)
-        </p>
+            🏫 In collaborazione con: <span style="color: #ffd700; font-weight: 600;">Agrupamento de Escolas de Santa Comba Dão AESCD
     </div>
     
     <h1 style="font-size: 36px; margin-top: 15px; color: #ffffff; border-bottom: none; padding-bottom: 0;">
