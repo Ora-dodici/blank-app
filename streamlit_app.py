@@ -170,8 +170,10 @@ cosa significa davvero sentirsi cittadini europei attivi.
     """, unsafe_allow_html=True)
 
 # --- TAB 3: DIARIO DI BORDO (CRONOLOGICO AGGIORNATO) ---
+# --- TAB 3: DIARIO DI BORDO (CRONOLOGICO AGGIORNATO CON FIX DI RENDERING) ---
 with tab3:
-    st.markdown("""
+    # Usiamo st.html per assicurarci che tutta la struttura dei div rimanga intatta e stilizzata
+    st.html("""
 <div class="glass-card">
 <h1>Il Diario di Bordo dell'Avventura</h1>
 <p style="font-size: 16px; line-height: 1.6; margin-bottom: 25px;">
@@ -181,57 +183,57 @@ Ecco la cronologia dettagliata della mia mobilità in Portogallo. Ogni giorno è
 <div style="border-left: 3px solid #ffd700; padding-left: 20px; margin-left: 10px;">
 
     <div style="margin-bottom: 25px;">
-        <h3 style="color: #ffd700; margin-bottom: 5px;">🛬 Giorno 1: Domenica 22 Marzo - L'Arrivo</h3>
-        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        <h3 style="color: #ffd700; margin-bottom: 5px; font-weight: 600;">🛬 Giorno 1: Domenica 22 Marzo - L'Arrivo</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0; color: #f8f9fa;">
         La nostra avventura è iniziata la mattina presto all'Aeroporto di Oporto, dove siamo atterrati intorno alle 10:00. Un pullman messo a disposizione dal Comune ci ha portati direttamente a <b>Santa Comba Dão</b>. L'emozione più grande della giornata è stata senza dubbio l'incontro con le famiglie ospitanti, che ci hanno accolto a braccia aperte nelle loro case.
         </p>
     </div>
 
     <div style="margin-bottom: 25px;">
-        <h3 style="color: #ffd700; margin-bottom: 5px;">🤝 Giorno 2: Lunedì 23 Marzo - Connection Spice</h3>
-        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        <h3 style="color: #ffd700; margin-bottom: 5px; font-weight: 600;">🤝 Giorno 2: Lunedì 23 Marzo - Connection Spice</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0; color: #f8f9fa;">
         La parola chiave della giornata è stata <b>Relazioni e Inclusione</b>. Siamo stati accolti a scuola dalla Dirigente Scolastica, la professoressa Madalena Dinis. Dopo aver visitato l'istituto, ci siamo divisi per partecipare a lezioni di educazione fisica e ad attività nel laboratorio multimediale, affrontando temi cruciali come la cittadinanza europea, l'identità e la sostenibilità climatica. Nel pomeriggio abbiamo esplorato lo splendido centro storico di Santa Comba Dão e siamo stati ricevuti ufficialmente al Municipio.
         </p>
     </div>
 
     <div style="margin-bottom: 25px;">
-        <h3 style="color: #ffd700; margin-bottom: 5px;">🗺️ Giorno 3: Martedì 24 Marzo - Travel Spice</h3>
-        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        <h3 style="color: #ffd700; margin-bottom: 5px; font-weight: 600;">🗺️ Giorno 3: Martedì 24 Marzo - Travel Spice</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0; color: #f8f9fa;">
         Il martedì è stato dedicato all'<b>Esplorazione</b>. Siamo partiti per una fantastica escursione a <b>Coimbra</b>! La mattina abbiamo visitato la sua famosissima e antica Università, respirando la storia e la cultura che avvolgono questa città. Dopo il pranzo insieme, abbiamo passato il pomeriggio a scoprire gli scorci e le bellezze del centro storico, prima di rientrare in serata a Santa Comba Dão dalle nostre famiglie.
         </p>
     </div>
 
     <div style="margin-bottom: 25px;">
-        <h3 style="color: #ffd700; margin-bottom: 5px;">🌿 Giorno 4: Mercoledì 25 Marzo - Nature Spice</h3>
-        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        <h3 style="color: #ffd700; margin-bottom: 5px; font-weight: 600;">🌿 Giorno 4: Mercoledì 25 Marzo - Nature Spice</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0; color: #f8f9fa;">
         Una giornata focalizzata sulla <b>Salute Fisica ed Emozionale</b>. La mattina ci siamo immersi nella natura visitando i bellissimi dintorni della regione, tra cui le località di Sra da Ribeira, Vimieiro e la suggestiva pista ciclabile naturalistica (Ecopista). Nel pomeriggio, la nostra sensibilità culturale si è spostata verso l'arte: abbiamo visitato il Conservatorio di Musica locale, dove abbiamo assistito alle lezioni e alle prove d'insieme dei musicisti.
         </p>
     </div>
 
     <div style="margin-bottom: 25px;">
-        <h3 style="color: #ffd700; margin-bottom: 5px;">🎨 Giorno 5: Giovedì 26 Marzo - Creative Spice</h3>
-        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
-        Spazio all'<b>Originalità ed Espressione Personale</b>! Durante la mattinata abbiamo partecipato a un fantastico laboratorio d'arte ("Art & Design Exchange") realizzando tutti insieme un murales collaborativo a scuola, seguito da un divertente quiz a squadre. Nel pomeriggio ci siamo scatenati con la musica e i giochi: durante la "Music Jam", ogni gruppo ha insegnato una canzone o un ballo tradizionale della propria terra d'origine. La sera si è tenuta la bellissima cena ufficiale a scuola con professori, personale e famiglie ospitanti.
+        <h3 style="color: #ffd700; margin-bottom: 5px; font-weight: 600;">🎨 Giorno 5: Giovedì 26 Marzo - Creative Spice</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0; color: #f8f9fa;">
+        Spazio all'<b>Originalità ed Espressione Personale</b>! Durante la mattinata abbiamo partecipato a un fantastico laboratorio d'arte ("Art & Design Exchange") realizzando tutti insieme un murales collaborativo a scuola, seguito da un divertente quiz a squadre. Nel pomeriggio ci siamo scatenati con la musica e i giochi: durante la "Music Jam", ogni gruppo ha insegnato una canzone o un ballo tradicional della propria terra d'origine. La sera si è tenuta la bellissima cena ufficiale a scuola con professori, personale e famiglie ospitanti.
         </p>
     </div>
 
     <div style="margin-bottom: 25px;">
-        <h3 style="color: #ffd700; margin-bottom: 5px;">📸 Giorno 6: Venerdì 27 Marzo - I Saluti</h3>
-        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        <h3 style="color: #ffd700; margin-bottom: 5px; font-weight: 600;">📸 Giorno 6: Venerdì 27 Marzo - I Saluti</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0; color: #f8f9fa;">
         L'ultimo giorno di attività si è aperto con la mostra fotografica "Bridges Across Europe" e con alcuni momenti dedicati alla lettura. Successivamente si è tenuta la toccante cerimonia di consegna dei certificati di partecipazione con i saluti finali. Abbiamo passato l'ultimo pomeriggio di libertà insieme ai nostri partner portoghesi, prima di goderci l'ultima cena speciale in famiglia.
         </p>
     </div>
 
     <div style="margin-bottom: 10px;">
-        <h3 style="color: #ffd700; margin-bottom: 5px;">🛫 Giorno 7: Sabato 28 Marzo - Il Ritorno</h3>
-        <p style="font-size: 15px; line-height: 1.6; margin: 0;">
+        <h3 style="color: #ffd700; margin-bottom: 5px; font-weight: 600;">🛫 Giorno 7: Sabato 28 Marzo - Il Ritorno</h3>
+        <p style="font-size: 15px; line-height: 1.6; margin: 0; color: #f8f9fa;">
         La sveglia è suonata prestissimo: alle 2:00 di notte abbiamo salutato Santa Comba Dão e siamo partiti in pullman verso l'Aeroporto di Oporto. Alle 6:10 il nostro volo è decollato, riportandoci in Italia stanchi ma carichi di ricordi indimenticabili.
         </p>
     </div>
 
 </div>
 </div>
-    """, unsafe_allow_html=True)
+    """)
 
 # --- TAB 4: GALLERIA FOTOGRAFICA ---
 with tab4:
