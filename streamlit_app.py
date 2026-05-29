@@ -106,7 +106,7 @@ LICEO SCIENTIFICO STATALE "G. BERTO"
 </div>
 
 <h1 style="font-size: 36px; margin-top: 15px; color: #ffffff; border-bottom: none; padding-bottom: 0;">
-Programma Erasmus+ • Mobilità Portogallo
+La mia esperienza con il progetto Erasmus+ • Mobilità Portogallo
 </h1>
 </div>
 """, unsafe_allow_html=True)
