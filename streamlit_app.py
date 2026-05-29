@@ -3,7 +3,7 @@ import os
 
 # Configurazione della pagina
 st.set_page_config(
-    page_title="Erasmus+ Portogallo - Liceo G. Berto",
+    page_title="Il mio Erasmus in Portogallo",
     page_icon="🇵🇹",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -113,41 +113,38 @@ La mia esperienza con il progetto Erasmus+ • Mobilità Portogallo
 
 # --- CREAZIONE DELLE TAB NAVIGAZIONALI ---
 tab1, tab2, tab3, tab4, tab5 = st.tabs([
-    "🏠 Home / Presentazione", 
-    "📋 Il Progetto", 
-    "🗺️ Diario di Bordo", 
-    "📸 Galleria Fotografica", 
-    "🌟 Impatto & Competenze"
+    "🏠 Ciao! (Home)", 
+    "📋 Perché sono partito", 
+    "🗺️ Il mio Diario", 
+    "📸 I miei Ricordi", 
+    "🌟 Cosa mi porto a casa"
 ])
 
 # --- TAB 1: HOME / PRESENTAZIONE ---
 with tab1:
     st.markdown("""
 <div class="glass-card">
-<h1>Benvenuti nel Report Multimediale</h1>
+<h1>Benvenuti nel mio Diario di Viaggio</h1>
 <p style="font-size: 18px; line-height: 1.6;">
-Questo spazio istituzionale è dedicato alla documentazione e alla valorizzazione dell'esperienza 
-di mobilità internazionale promossa dal programma <b>Erasmus+</b>, che ha visto la partecipazione 
-degli studenti del Liceo Scientifico "G. Berto" presso la prestigiosa città di <b>Coimbra, Portogallo</b>, 
-nel mese di <b>Marzo 2026</b>.
+Ho creato questo spazio per raccontare e condividere la mia fantastica esperienza con il programma <b>Erasmus+</b>. 
+Nel mese di <b>Marzo 2026</b> ho avuto l'incredibile opportunità di viaggiare in Portogallo, un'avventura che mi ha permesso di 
+uscire dalla mia zona di comfort e di rappresentare il Liceo "G. Berto" all'estero.
 </p>
 <p style="font-size: 18px; line-height: 1.6;">
-Attraverso questo portale, strutturato secondo i criteri di trasparenza e disseminazione dei progetti europei, 
-è possibile ripercorrere le tappe fondamentali del viaggio, gli obiettivi didattici raggiunti e l'impatto 
-formativo che l'esperienza ha generato sul percorso di crescita studentesca.
+Attraverso le pagine di questo sito, voglio portarvi con me: vi mostrerò le tappe fondamentali del mio viaggio, gli obiettivi 
+che mi ero prefissato e, soprattutto, come questa esperienza mi abbia fatto crescere sia come studente che come persona.
 </p>
 </div>
     """, unsafe_allow_html=True)
     
     st.markdown("""
 <div class="glass-card" style="border-left: 5px solid #ffd700; background: rgba(255,255,255,0.04);">
-<h2>Il Pensiero</h2>
+<h2>Il mio Pensiero</h2>
 <p style="font-style: italic; font-size: 20px; line-height: 1.6; color: #f1f3f5;">
-"L'Erasmus non è semplicemente un viaggio di studio, ma un'immersione profonda in un mare di nuove prospettive. 
-Camminare tra la storia millenaria di Coimbra e confrontarsi ogni giorno con contesti e compagni da tutta Europa 
-mi ha insegnato che i confini esistono solo sulle mappe geografiche. La vera crescita nasce dalla condivisione, 
-dalla capacità di adattarsi e dallo scoprire che le nostre differenze sono la risorsa più grande per costruire 
-un futuro comune."
+"L'Erasmus non è stato semplicemente un viaggio di studio, ma un'immersione profonda in un mare di nuove prospettive. 
+Camminare tra le strade portoghesi e confrontarmi ogni giorno con contesti e ragazzi da tutta Europa mi ha insegnato 
+che i confini esistono solo sulle mappe geografiche. Ho capito che la vera crescita nasce dalla condivisione e dalla 
+capacità di adattarsi."
 </p>
 </div>
     """, unsafe_allow_html=True)
@@ -156,19 +153,18 @@ un futuro comune."
 with tab2:
     st.markdown("""
 <div class="glass-card">
-<h1>Quadro Progettuale ed Obiettivi</h1>
-<h2>L'Iniziativa Europea</h2>
+<h1>I miei Obiettivi</h1>
+<h2>Perché ho scelto di partecipare?</h2>
 <p style="font-size: 16px; line-height: 1.6;">
-Il progetto si classifica all'interno delle azioni chiave del programma Erasmus+, volte a favorire 
-la mobilità transnazionale degli studenti della scuola secondaria superiore. L'obiettivo principale 
-è lo sviluppo di competenze chiave europee, l'inclusione sociale, la sostenibilità e la comprensione 
-delle dinamiche interculturali.
+Quando ho deciso di mettermi in gioco con l'Erasmus+, volevo vivere un'esperienza che andasse oltre la classica gita scolastica. 
+Il mio obiettivo era mettermi alla prova in un contesto totalmente nuovo, conoscere persone di altre culture e capire 
+cosa significa davvero sentirsi cittadini europei attivi.
 </p>
-<h2>Macro-Obiettivi Formativi:</h2>
+<h2>Cosa mi ero prefissato:</h2>
 <ul style="font-size: 16px; line-height: 1.7; color: #f8f9fa;">
-<li><b>Potenziamento Linguistico:</b> Utilizzo pratico e immersivo della lingua inglese come strumento di comunicazione ed apprendimento comune.</li>
-<li><b>Cittadinanza Attiva:</b> Consapevolezza della propria identità europea attraverso il confronto diretto con la cultura, le leggi e le tradizioni del paese ospitante.</li>
-<li><b>Soft Skills:</b> Incremento dello spirito d'iniziativa, della capacità di problem solving in contesti non familiari e dell'autonomia personale lontano dall'ambiente domestico.</li>
+<li><b>Migliorare il mio inglese:</b> Volevo sforzarmi di comunicare costantemente in una lingua diversa, usandola per fare amicizia e collaborare nei progetti.</li>
+<li><b>Scoprire una nuova cultura:</b> Volevo immergermi nelle tradizioni, nel cibo e nello stile di vita portoghese, confrontandoli con i nostri.</li>
+<li><b>Crescere in autonomia (Soft Skills):</b> Imparare a cavarmela da solo lontano da casa, migliorare la mia capacità di risolvere piccoli imprevisti e lavorare in un team internazionale.</li>
 </ul>
 </div>
     """, unsafe_allow_html=True)
@@ -177,26 +173,24 @@ delle dinamiche interculturali.
 with tab3:
     st.markdown("""
 <div class="glass-card">
-<h1>Le Attività e l'Itinerario Culturale</h1>
+<h1>Le mie giornate in Portogallo</h1>
 <p style="font-size: 16px; line-height: 1.6;">
-La mobilità ha saputo coniugare rigorosi momenti di formazione a una fitta agenda di scambi culturali, 
-aventi come fulcro la città di Coimbra, celebre per la sua prestigiosa tradizione universitaria e storica.
+Il mio viaggio è stato un mix perfetto tra momenti di lavoro, laboratori scolastici e la scoperta di posti meravigliosi. 
+Insieme ai compagni d'avventura (un saluto speciale a Nicole e Alessia che hanno condiviso con me questa esperienza!), abbiamo vissuto giornate intense e indimenticabili.
 </p>
 
-<h2>🏛️ Visite Culturali Fondamentali</h2>
+<h2>🏛️ I posti che ho visitato</h2>
 <p style="font-size: 16px; line-height: 1.6;">
-Il percorso antropico e storico ha previsto l'esplorazione critica del patrimonio locale. Dalle storiche 
-mura dell'Università di Coimbra (Patrimonio UNESCO) fino ai vicoli della città vecchia, ogni visita è stata 
-strutturata come un laboratorio a cielo aperto per comprendere le radici culturali e scientifiche che legano 
-la penisola iberica al resto del continente.
+Camminare per i centri storici e ammirare il patrimonio locale è stato affascinante. Ogni visita non era solo 
+una passeggiata turistica, ma un modo per comprendere le radici culturali che ci legano al resto del continente. 
+Ho scattato decine di foto per ricordarmi ogni dettaglio!
 </p>
 
-<h2>👥 Attività di Gruppo e Cooperative Learning</h2>
+<h2>👥 Il lavoro di squadra e i Workshop</h2>
 <p style="font-size: 16px; line-height: 1.6;">
-Il cuore didattico della mobilità si è sviluppato attraverso workshop collaborativi. Gli studenti, divisi in 
-team internazionali, hanno affrontato compiti di realtà e project work focalizzati sulla condivisione di buone 
-pratiche scolastiche, l'analisi del territorio e lo sviluppo di idee innovative per la sostenibilità dei sistemi 
-scolastici europei.
+La parte più stimolante? Lavorare con i ragazzi portoghesi e degli altri paesi. Divisi in team, abbiamo affrontato 
+compiti di realtà e project work. Non è stato sempre facile capirsi subito, ma collaborare per trovare idee innovative 
+sulla sostenibilità e scambiarci opinioni sul nostro modo di vivere la scuola è stato illuminante.
 </p>
 </div>
     """, unsafe_allow_html=True)
@@ -205,10 +199,10 @@ scolastici europei.
 with tab4:
     st.markdown("""
 <div class="glass-card">
-<h1>Galleria della Mobilità</h1>
+<h1>I miei Ricordi Fotografici</h1>
 <p style="font-size: 16px; margin-bottom: 20px;">
-Di seguito sono riportate le sezioni fotografiche dedicate ai tre soggetti principali dell'esperienza. 
-<i>(Sostituisci i file segnaposto nella cartella del progetto per visualizzare le tue foto reali).</i>
+Ecco alcuni degli scatti a cui tengo di più. Un'immagine vale più di mille parole per raccontare i posti che ho visto 
+e le persone fantastiche che ho incontrato.
 </p>
 </div>
     """, unsafe_allow_html=True)
@@ -216,25 +210,25 @@ Di seguito sono riportate le sezioni fotografiche dedicate ai tre soggetti princ
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.markdown('<div class="glass-card" style="padding: 15px; text-align: center;"><h3>La Città Ospitante</h3>', unsafe_allow_html=True)
+        st.markdown('<div class="glass-card" style="padding: 15px; text-align: center;"><h3>I luoghi che ho amato</h3>', unsafe_allow_html=True)
         if os.path.exists("foto_citta.jpg"):
-            st.image("foto_citta.jpg", caption="Scorci storici di Coimbra", use_container_width=True)
+            st.image("foto_citta.jpg", caption="Scorci indimenticabili del Portogallo", use_container_width=True)
         else:
             st.warning("Carica un'immagine nominata 'foto_citta.jpg' per vederla qui.")
         st.markdown('</div>', unsafe_allow_html=True)
         
     with col2:
-        st.markdown('<div class="glass-card" style="padding: 15px; text-align: center;"><h3>Il Gruppo</h3>', unsafe_allow_html=True)
+        st.markdown('<div class="glass-card" style="padding: 15px; text-align: center;"><h3>Io e il gruppo</h3>', unsafe_allow_html=True)
         if os.path.exists("foto_gruppo.jpg"):
-            st.image("foto_gruppo.jpg", caption="Il team del Liceo Berto in Portogallo", use_container_width=True)
+            st.image("foto_gruppo.jpg", caption="La mia 'famiglia' Erasmus", use_container_width=True)
         else:
             st.warning("Carica un'immagine nominata 'foto_gruppo.jpg' per vederla qui.")
         st.markdown('</div>', unsafe_allow_html=True)
         
     with col3:
-        st.markdown('<div class="glass-card" style="padding: 15px; text-align: center;"><h3>Le Attività</h3>', unsafe_allow_html=True)
+        st.markdown('<div class="glass-card" style="padding: 15px; text-align: center;"><h3>Al lavoro!</h3>', unsafe_allow_html=True)
         if os.path.exists("foto_attivita.jpg"):
-            st.image("foto_attivita.jpg", caption="Momenti di workshop e visite culturali", use_container_width=True)
+            st.image("foto_attivita.jpg", caption="Momenti durante i workshop", use_container_width=True)
         else:
             st.warning("Carica un'immagine nominata 'foto_attivita.jpg' per vederla qui.")
         st.markdown('</div>', unsafe_allow_html=True)
@@ -243,30 +237,29 @@ Di seguito sono riportate le sezioni fotografiche dedicate ai tre soggetti princ
 with tab5:
     st.markdown("""
 <div class="glass-card">
-<h1>Impatto e Competenze Acquisite</h1>
-<h2>Bilancio delle Competenze (Europass Mobility)</h2>
+<h1>Come sono cambiato</h1>
+<h2>Le mie nuove competenze (Europass Mobility)</h2>
 <p style="font-size: 16px; line-height: 1.6;">
-In coerenza con gli standard europei di trasparenza delle qualifiche, l'esperienza ha permesso 
-la maturazione e la validazione di specifiche competenze trasversali (soft skills), formalmente riconosciute 
-nel contesto del percorso scolastico:
+Se guardo indietro a prima di partire, mi rendo conto di quante cose ho imparato a fare senza nemmeno accorgermene. 
+Questa esperienza mi ha permesso di sviluppare abilità che nessun libro di testo avrebbe potuto insegnarmi così bene:
 </p>
 
 <table style="width:100%; border-collapse: collapse; margin-top: 15px; font-size: 16px;">
     <tr style="background: rgba(255,255,255,0.1); border-bottom: 2px solid rgba(255,255,255,0.2);">
-        <th style="padding: 12px; text-align: left; color: #ffd700;">Area di Competenza</th>
-        <th style="padding: 12px; text-align: left; color: #ffd700;">Evidenze ed Abilità Sviluppate</th>
+        <th style="padding: 12px; text-align: left; color: #ffd700;">In cosa sono migliorato</th>
+        <th style="padding: 12px; text-align: left; color: #ffd700;">Cosa ho imparato a fare concretamente</th>
     </tr>
     <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
-        <td style="padding: 12px; font-weight: bold;">Comunicazione Interculturale</td>
-        <td style="padding: 12px;">Capacità di interagire efficacemente in contesti multilingue, superando barriere culturali ed esprimendo idee complesse in lingua inglese.</td>
+        <td style="padding: 12px; font-weight: bold;">Comunicare in lingua straniera</td>
+        <td style="padding: 12px;">Ho superato la timidezza di parlare in inglese, riuscendo a esprimere le mie idee e a scherzare con ragazzi di altre nazionalità.</td>
     </tr>
     <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
         <td style="padding: 12px; font-weight: bold;">Spirito di Adattamento</td>
-        <td style="padding: 12px;">Gestione autonoma delle routine quotidiane e logistiche in un contesto internazionale, dimostrando flessibilità e resilienza.</td>
+        <td style="padding: 12px;">Ho imparato a gestire i miei tempi, gli spostamenti e le routine quotidiane in un paese che non conoscevo, diventando molto più indipendente.</td>
     </tr>
     <tr style="border-bottom: 1px solid rgba(255,255,255,0.1);">
-        <td style="padding: 12px; font-weight: bold;">Team Working Transnazionale</td>
-        <td style="padding: 12px;">Cooperazione all'interno di gruppi di lavoro eterogenei per il raggiungimento di obiettivi progettuali comuni durante i workshop.</td>
+        <td style="padding: 12px; font-weight: bold;">Lavoro di Squadra</td>
+        <td style="padding: 12px;">Ho capito come collaborare in un gruppo eterogeneo, ascoltando le idee degli altri e trovando compromessi per portare a termine i progetti.</td>
     </tr>
 </table>
 </div>
@@ -275,7 +268,7 @@ nel contesto del percorso scolastico:
 # --- FOOTER ---
 st.markdown("""
 <div style="text-align: center; margin-top: 40px; padding: 20px; color: rgba(255,255,255,0.5); font-size: 12px;">
-© 2026 Liceo Scientifico Statale "G. Berto" - Progetto Erasmus+ Portogallo. Tutti i diritti riservati.<br>
-Sito sviluppato da Antonio Mazza 2AQ.
+© 2026 Liceo Scientifico Statale "G. Berto" - Progetto Erasmus+ Portogallo.<br>
+Sito interamente sviluppato e raccontato da Antonio Mazza 2AQ.
 </div>
 """, unsafe_allow_html=True)
