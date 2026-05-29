@@ -251,8 +251,8 @@ e le persone fantastiche che ho incontrato.
     
     with col1:
         st.markdown('<div class="glass-card" style="padding: 15px; text-align: center;"><h3>I luoghi che ho amato</h3>', unsafe_allow_html=True)
-        if os.path.exists("foto_citta.jpg"):
-            st.image("foto_citta.jpg", caption="Scorci indimenticabili di Coimbra e dintorni", use_container_width=True)
+        if os.path.exists("IMG_20260323_162625.jpg"):
+            st.image("IMG_20260323_162625.jpg", caption="Scorci indimenticabili di Coimbra e dintorni", use_container_width=True)
         else:
             st.warning("Carica un'immagine nominata 'foto_citta.jpg' per vederla qui.")
         st.markdown('</div>', unsafe_allow_html=True)
