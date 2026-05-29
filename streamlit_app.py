@@ -267,8 +267,8 @@ e le persone fantastiche che ho incontrato.
         
     with col3:
         st.markdown('<div class="glass-card" style="padding: 15px; text-align: center;"><h3>Al lavoro!</h3>', unsafe_allow_html=True)
-        if os.path.exists("foto_attivita.jpg"):
-            st.image("foto_attivita.jpg", caption="Momenti tra workshop e la creazione del murales", use_container_width=True)
+        if os.path.exists("IMG_20260323_102321.jpg"):
+            st.image("IMG_20260323_102321.jpg", caption="Momenti tra workshop e la creazione del murales", use_container_width=True)
         else:
             st.warning("Carica un'immagine nominata 'foto_attivita.jpg' per vederla qui.")
         st.markdown('</div>', unsafe_allow_html=True)
